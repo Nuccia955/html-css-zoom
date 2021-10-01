@@ -10,7 +10,9 @@ body {
     flex-direction: column;
     height: 100vh;
     font-family: 'Lato', sans-serif;
+    font-size: 15px;
     color: white;
+    background-color: black;
 }
 
 /* UTILITIES */
@@ -23,10 +25,25 @@ ul {
     list-style: none;
 }
 
+.button {
+    background-color: #3a3a3a ;
+    color: white;
+    border: none;
+}
+
+.border_rounded {
+    border-radius: 5px;
+}
+
 /* distances */
 .px_10 {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.py_5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .py_10 {
@@ -40,7 +57,7 @@ ul {
 
 /* HEADER */
 header {
-    background-color: red;
+    /* background-color: red; */
     text-align: right;
 }
 
