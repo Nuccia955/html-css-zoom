@@ -97,16 +97,34 @@ main ul .info {
 
 /* FOOTER */
 footer {
-    background-color: blue;
+    background-color: #232428;
     display: flex;
     justify-content: space-between;
 }
 
 footer > ul {
     display: flex;
-    height: 50px;  /* provvisoria */
 }
 
 footer > ul > li {
     margin: 0 10px;
+}
+
+footer .action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .action .icon {
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+
+footer .action span {
+    font-size: 12px;
+}
+
+footer .footer_right.button {
+    color: #ff5e47;
 }
