@@ -13,6 +13,7 @@ body {
     font-size: 15px;
     color: white;
     background-color: black;
+    cursor: default;
 }
 
 /* UTILITIES */
@@ -60,10 +61,24 @@ ul {
     color: #54c503;
 }
 
+.active {
+    border: 4px solid #f3fa88;
+}
+
+/* cursors */
+button:hover,
+footer li:hover {
+    cursor: pointer;
+}
+
 /* HEADER */
 header {
     /* background-color: red; */
     text-align: right;
+}
+
+header button:hover {
+    background-color: rgba(255, 255, 255, 0.4);
 }
 
 /* MAIN */
@@ -132,6 +147,10 @@ footer .action .icon,
 footer .action_menu .icon {
     font-size: 25px;
     margin-bottom: 3px;
+}
+
+footer .icon:hover {
+    color: #54c503 ;
 }
 
 footer .icon_span sup {
