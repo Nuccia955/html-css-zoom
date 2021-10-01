@@ -18,16 +18,46 @@ body {
     display: block;
 }
 
+/* distances */
+.p_10 {
+    padding: 10px;
+}
+
+.mr_5 {
+    margin-right: 5px;
+}
+
 /* HEADER */
 header {
     background-color: red;
+    text-align: right;
 }
 
 /* MAIN */
 main {
     background-color: green;
     flex-grow: 1;
+    overflow: auto;
 }
+
+main > ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10px 0;
+}
+
+main > ul > li {
+    width: 250px;
+    height: 175px;
+    background-color: orange;
+    margin: 10px;
+}
+
+/* main > ul > li img {
+
+} */
 
 /* FOOTER */
 footer {
