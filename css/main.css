@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     height: 100vh;
     font-family: 'Lato', sans-serif;
+    color: white;
 }
 
 /* UTILITIES */
@@ -18,9 +19,19 @@ body {
     display: block;
 }
 
+ul {
+    list-style: none;
+}
+
 /* distances */
-.p_10 {
-    padding: 10px;
+.px_10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.py_10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .mr_5 {
@@ -44,7 +55,6 @@ main > ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    list-style: none;
     padding: 10px 0;
 }
 
@@ -62,4 +72,15 @@ main > ul > li {
 /* FOOTER */
 footer {
     background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer > ul {
+    display: flex;
+    height: 50px;  /* provvisoria */
+}
+
+footer > ul > li {
+    margin: 0 10px;
 }
